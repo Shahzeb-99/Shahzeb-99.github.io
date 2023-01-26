@@ -1,6 +1,17 @@
-#screenshots img {
-  width: 300px;
-  height: 200px;
-  display: inline-block;
+.screenshots-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.screenshots-container img {
+  width: 216px;
+  height: 384px;
   margin: 10px;
+}
+body {
+  background-color: #ADD8E6;
+}
+.logo {
+  width: 75px;
+  height: 75px;
 }
